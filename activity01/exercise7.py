@@ -18,6 +18,9 @@ def determinar_ganador(eleccion_usuario):
     This functions receives a string with your selection to play
     rock, paper, scissors and then it displays the result with
     tkinter
+
+    Parameters:
+        @str eleccion_usuario -> "Piedra", "Papel" o "Tijera"
     """
     opciones = ['Piedra', 'Papel', 'Tijera']
     eleccion_pc = random.choice(opciones)
